@@ -3,7 +3,7 @@
 выставил перки.
 Прописал Devmode.
 в консоли выписал команду на список кораблей.
-Заспавнил Cherry Vanguard, Solvernia, Novaeria, парочку Doom и кораблей для перевозки персонала.
+Заспавнил Cherry Vanguard, Solvernia, Novaeria, 2х Doom.
 Через консоль заспавнил себе логистику и деньги.
 Заспавнил все существующие экзотики в тестовом билде.
 Телепорт в Asharu, Система Corvus.
@@ -12,3 +12,43 @@
 
 Провести тесты с новыми и переработанными подсистемами "Экзотика", игнорировать AlphaSubcore.
 Maxed out Bandwich on all ships
+// делаю X (например, устанавливаю SpooledFeeders)
+
+    устанавливаю SpooledFeeders в child модуль левого борта.
+13083955 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+13084157 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+13094113 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.FleetMemberUtils$variantTreeOwns$1
+13094117 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.FleetMemberUtilsKt$propagateFromVariantTree$1
+
+   устанавливаю FullMetalSalvo в корневой модуль Novaeria.
+13185329 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: org.magiclib.subsystems.MagicSubsystem$State
+13185333 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: org.magiclib.subsystems.ShipAIData
+13189364 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+13189885 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+13202383 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+13202911 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+13286791 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+13287150 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+13292932 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.FullMetalSalvo$SalvoActivator
+
+Фиксирую аномалию! Подсистема FMS активировалась в Refit и графическому воздействию подвержены все модули. Применяю контрмеры через "Exotica Shop".
+Проблема устранена, произвожу повтор эксперимента. Фиксирую графическую аномалию.
+
+  устанавливаю FullMetalSalvo в DooM.
+Нет логов.
+Фиксирую графическую аномалию, игнорирую.
+
+   устанавливаю FullMetalSalvo в корневой модуль Novaeria.
+4544263 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+14544790 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+14554454 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedFloatRange
+14554458 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedFloatingPointRange
+14554461 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedRange
+14578577 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+14578828 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+
+   устанавливаю ShipFishingHook в child модуль правого борта Novaeria.
+14924277 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
+15000724 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipFishingHookSystem$WhenMappings
+15003903 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipFishingHookSystem$FishingHookSystem
+15006461 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
