@@ -62,6 +62,7 @@ Maxed out Bandwich on all ships
 26251488 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.NanotechArmor$NanoArmorDamageTracker
 26251518 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.combat.listeners.DamageListener
 26251546 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: org.lazywizard.lazylib.combat.CombatCache
+
    устанавливаю ShipRepulserSystem в root модуль Правого борта Solvernia.
 26306476 [Thread-3] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
 26306851 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
@@ -74,9 +75,12 @@ Maxed out Bandwich on all ships
 26373033 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.NumberUtilsKt$WhenMappings
 26381513 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipAttractorSystem$WhenMappings
 26471396 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipRepulsorSystem$RepulsorPushOutSystem
+
 Произвожу проверку подсистем Novaeria и Solvernia на наличие аномалий. Аномалий не обнаружено.
+
    устанавливаю AnomalousConjuration в child модуль Левого борта Novaeria.
 Логов не обнаружено.
+
    устанавливаю AmmoCraftingSystem в Root модуль Novaeria.
 26948626 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.AmmoCraftingSystem$AmmoCreator
 26948679 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.combat.AmmoTrackerAPI
@@ -93,6 +97,9 @@ Maxed out Bandwich on all ships
 26948978 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.random.jdk8.PlatformThreadLocalRandom
 26948992 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.random.AbstractPlatformRandom
 26948996 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.random.XorWowRandom$Companion
+
    устанавливаю PhasedTetherSystem в child модуль кормы Novaeria.
 27013441 [Thread-19] INFO  sound.O  - Cleaning up music with id [exotica.ogg]
 27072316 [Thread-3] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.combat.FighterLaunchBayAPI
+
+   устанавливаю  в root модуль Solvernia.
