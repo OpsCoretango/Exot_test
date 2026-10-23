@@ -35,8 +35,10 @@ text
 
 
   Пятница, 23 октября 2026-ой год.
+  
 Сообщение -
 Перевод:
+
 содержит дохренища логов и тест fullmetalsalvo
 ExoticaTechnologies-diag.rar
 
