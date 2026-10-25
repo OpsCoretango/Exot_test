@@ -2,13 +2,61 @@
 Удалил логи в том числе и с бэкапа.
 Прописал Devmode.
 в консоли выписал команду на список кораблей.
-Заспавнил X1, X2, x3. (X - это корабль)
+Заспавнил X1, X2. (X - это корабль/станция( если ванилла ))
 Через консоль заспавнил себе логистику и деньги.
-Заспавнил все существующие экзотики в тестовом билде.
-Телепорт в Asharu, Система Corvus.
+Заспавнил новые экзотики в том числе и их вариации по возможности, занимает время.
 Поиск цели для тестовых боев.
-Подготовка завершена, лог очищен и игра выведена в меню. Создаю сценарий тестов.
+Подготовка завершена, лог очищен и игра выведена в меню. Приступаю к тестированию.
 
 Провести тесты с новыми и переработанными подсистемами "Экзотика", игнорировать AlphaSubcore.
 Maxed out Bandwich on all ships
 // делаю X (например, устанавливаю SpooledFeeders)
+
+Вошел в рефит, наблюдаю станцию 1.
+Нет логов.
+Переименовал обьекты в Station 1, Station 2, и ISS Clanker(Derelict Mothership with Automated permamod)
+No logs.
+
+(
+-------------------------------------------------------------------------------------------------------------
+[
+"i installed <this>(exotica) <here>(module)
+PASS: after checking, <this> was indeed on <here>
+i installed <that> <there>
+FAIL: instead of having <this> on <here> and <that> on <there> I ended up with <actual result>"
+],
+
+перевод:
+[ Я установил <это> <сюда>
+УСПЕХ: после проверки оказалось, что <это> действительно находится <здесь>
+Я установил <то> <туда>
+НЕУДАЧА: вместо того чтобы <это> было <здесь>, а <то> — <там>, в итоге получилось <фактический результат> ];
+-------------------------------------------------------------------------------------------------------------
+)
+
+Активирую DevMode.
+#мои действия хаотичны и непоследовательные.. пишу активирую эзкотики а потом лезу за Devmode и вспоминаю про покупку Bandwidth..Джинкс
+[
+88980485 [Thread-2] INFO  org.lazywizard.console.Console  - > DevMode on
+88980486 [Thread-2] INFO  org.lazywizard.console.Console  - Dev mode is now enabled.
+];
+
+Покупаю Bandwight для обьектов S1,S2,Clanker.
+[
+89504873 [Thread-2] INFO  exoticatechnologies.modifications.ShipModFactory  - Generating bandwidth for fm ID [b82d]
+89504875 [Thread-2] INFO  exoticatechnologies.modifications.ShipModFactory  - Generating bandwidth for fm ID [b8cd]
+89504876 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.campaign.OptionPanelAPI
+89504877 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.FormattingUtilsKt
+];
+{ Добавляю station3_midline в родстер на временном положении для покупки Bandwight уже из Refit. Любопытно. 
+>Purchase Max for core
+[
+89918471 [Thread-2] INFO  exoticatechnologies.modifications.ShipModFactory  - Generating bandwidth for fm ID [ffbd]
+]
+Larp off
+Purchase max for Broadside North module
+90074822 [Thread-2] INFO  sound.O  - Creating streaming player for music with id [exotica.ogg]
+90074850 [Thread-6] INFO  sound.O  - Cleaning up music with id [exotica.ogg] (no logs, no boobs.. sadge)
+
+Purchase max for Heavy support module at south (stern)
+same result. Вывод - дальнейшие действия бесполезны, сбрасываю станцию в утиль. Расширение Bandwight в Refit без экзотики не вызывает проблем.
