@@ -17,23 +17,6 @@ Maxed out Bandwich on all ships
 Переименовал обьекты в Station 1, Station 2, и ISS Clanker(Derelict Mothership with Automated permamod)
 No logs.
 
-(
--------------------------------------------------------------------------------------------------------------
-[
-"i installed <this>(exotica) <here>(module)
-PASS: after checking, <this> was indeed on <here>
-i installed <that> <there>
-FAIL: instead of having <this> on <here> and <that> on <there> I ended up with <actual result>"
-],
-
-перевод:
-[ Я установил <это> <сюда>
-УСПЕХ: после проверки оказалось, что <это> действительно находится <здесь>
-Я установил <то> <туда>
-НЕУДАЧА: вместо того чтобы <это> было <здесь>, а <то> — <там>, в итоге получилось <фактический результат> ];
--------------------------------------------------------------------------------------------------------------
-)
-
 Активирую DevMode.
 #мои действия хаотичны и непоследовательные.. пишу активирую эзкотики а потом лезу за Devmode и вспоминаю про покупку Bandwidth..Джинкс
 [
@@ -60,3 +43,118 @@ Purchase max for Broadside North module
 
 Purchase max for Heavy support module at south (stern)
 same result. Вывод - дальнейшие действия бесполезны, сбрасываю станцию в утиль. Расширение Bandwight в Refit без экзотики не вызывает проблем.
+
+(
+-------------------------------------------------------------------------------------------------------------
+[
+"i installed <this>(exotica) <here>(module)
+PASS: after checking, <this> was indeed on <here>
+i installed <that> <there>
+FAIL: instead of having <this> on <here> and <that> on <there> I ended up with <actual result>"
+],
+
+перевод:
+[ Я установил <это> <сюда>
+УСПЕХ: после проверки оказалось, что <это> действительно находится <здесь>
+Я установил <то> <туда>
+НЕУДАЧА: вместо того чтобы <это> было <здесь>, а <то> — <там>, в итоге получилось <фактический результат> ];
+-------------------------------------------------------------------------------------------------------------
+)
+
+Начинаю инжект экзотики.
+Субьект Station 1 -
+
+Я установил Ship Attractor System в корневой модуль.
+
+код:
+{
+90783290 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticListUIPlugin
+90783291 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.filtered.FilteredListPanelPlugin
+90783303 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.ListUIPanelPlugin
+90783305 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticListUIPlugin$sortMembers$sortedItems$1
+90783306 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict
+90783313 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$1
+90783314 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$2
+90783314 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$3
+90783315 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$4
+90783315 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$5
+90783315 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$6
+90783316 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$7
+90783316 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$8
+90783317 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.OperatorDict$Companion
+90783317 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.Equals
+90783318 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.Operator
+90783319 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.GreaterThanOrEqual
+90783320 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.GreaterThan
+90783322 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.collections.CollectionsKt___CollectionsKt$asSequence$$inlined$Sequence$1
+90783323 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.Sequence
+90783336 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.impl.EquippedBallistics$getActual$1
+90783336 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt
+90783337 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt___SequencesKt
+90783340 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt___SequencesJvmKt
+90783341 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt__SequencesKt
+90783342 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt__SequencesJVMKt
+90783343 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.SequencesKt__SequenceBuilderKt
+90783344 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.TransformingSequence
+90783344 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.impl.EquippedBallistics$getActual$2
+90783345 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.sequences.TransformingSequence$iterator$1
+90783345 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.impl.EquippedEnergy$getActual$1
+90783346 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.impl.EquippedEnergy$getActual$2
+90783346 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.combat.ShipHullSpecAPI$ShipTypeHints
+90783346 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.combat.ShipSystemSpecAPI
+90783347 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticItemUIPlugin
+90783348 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.ListItemUIPanelPlugin
+90783349 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.SpritePanelPlugin
+90783350 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.UIUtils
+90783351 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.reflect.ReflectionUtils
+90783378 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.In
+90783381 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.conditions.operators.NotIn
+90783385 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.ListItemButtonHandler
+90783387 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: lunalib.lunaUI.elements.LunaToggleButton
+90783405 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: lunalib.lunaUI.elements.LunaToggleButton$1
+90783413 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: lunalib.lunaUI.elements.LunaToggleButton$2
+90783413 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: lunalib.lunaUI.elements.LunaToggleButton$3
+90783413 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.filtered.FilteredListPanelPlugin$layoutPanels$4
+90783414 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticShopUIPlugin$layoutPanel$1
+90783414 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.lists.ListUIPanelPlugin$ListListener
+90788142 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticPanelUIPlugin
+90788143 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticDescriptionUIPlugin
+90788144 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedFloatRange
+90788151 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedFloatingPointRange
+90788151 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: kotlin.ranges.ClosedRange
+90788153 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticResourcesUIPlugin
+90788153 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.ResourcesUIPlugin
+90788155 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticMethodsUIPlugin
+90788155 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticMethodsUIPlugin$Companion
+90788157 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: java.util.Objects
+90788157 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticMethodsUIPlugin$MethodButtonHandler
+90788159 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticPanelUIPlugin$MethodListener
+90788160 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticMethodsUIPlugin$Listener
+90789713 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.chips.ExoticChipPanelUIPlugin
+90789713 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipPanelUIPlugin
+90789715 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.chips.ExoticChipSearcher
+90789715 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipSearcher
+90789716 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.chips.ExoticChipListUIPlugin
+90789716 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipListUIPlugin
+90789717 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.chips.ExoticChipListUIPlugin$sortMembers$1
+90789718 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.chips.ExoticChipListItemUIPlugin
+90789718 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipListItemUIPlugin
+90789720 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.campaign.SpecialItemSpecAPI
+90789721 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.types.ExoticTypeTooltip
+90789721 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.types.ExoticTypeTooltip$Companion
+90789723 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: com.fs.starfarer.api.impl.campaign.skills.BaseSkillEffectDescription
+90789724 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipPanelUIPlugin$layoutPanels$1
+90789726 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipPanelUIPlugin$BackButtonHandler
+90789727 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.exotics.ExoticPanelUIPlugin$ChipPanelListener
+90789727 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.ui.impl.shop.chips.ChipPanelUIPlugin$Listener
+90794221 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipAttractorSystem$WhenMappings
+91390782 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.ShipModLoader$collectWholeShipMods$1
+91390783 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.hullmods.ExoticaTechHM$1
+91390800 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.util.FleetMemberUtilsKt$propagateFromVariantTree$1
+91390802 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.ShipModificationsKt
+91532680 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: exoticatechnologies.modifications.exotics.impl.ShipAttractorSystem$AttractorPullInSystem
+91532708 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: org.magiclib.subsystems.MagicSubsystem$State
+91532709 [Thread-2] INFO  com.fs.starfarer.loading.scripts.B  - Loading class: org.magiclib.subsystems.ShipAIData
+}
+Успешно: после проверки ShipAttractorSystem остался в модуле. 
+Выхожу в главное меню на проведение мероприятий в ИРЛ. Время? Час. 10:57pm current time
